@@ -10,12 +10,13 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
 <div class="container">
     
 {% if page.url == "/" %}
-    
-    
+
+
     
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
+
 <div class="row remove-site-content-margin">
-    
+
     <!-- latest post -->
     {% assign latest_post = site.posts[0] %}
     <div class="col-md-6">
@@ -157,17 +158,17 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
     <div class="pl-4 pr-0 h-100 tofront">
         <div class="row justify-content-between">
             <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
-                <h1 class="mb-3">회원가입</h1>
+                <h1 class="mb-3">회원가입을 언제나 받습니다</h1>
                 <p class="mb-3 lead">
-                    가입시켜준다
+                    클러그는 리눅스 사용자모임이며 어쩌구 저쩌구 항상 회원을 받고 어쩌구 저쩌구
                 </p>
-                <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">가입하기</a>
+                <a href="" class="btn btn-dark" onclick="alert('구글독스 가입하기ㄱㄱ')">가입하기</a>
             </div>
-            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url(/mundana-theme-jekyll/assets/images/home.jpg);">	
+            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url(/mundana-theme-jekyll/assets/images/home.jpg);">
             </div>
         </div>
     </div>
-</div> 
+</div>
 
 
     
@@ -183,7 +184,7 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
    
     <div class="col-md-8 main-loop">
         
-        <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
+        <h4 class="font-weight-bold spanborder"><span>모든 게시물</span></h4>
         
 
         {% for post in paginator.posts %}

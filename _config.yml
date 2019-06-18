@@ -1,5 +1,5 @@
 # Site
-name: 'Segyo'
+name: 'CLUG'
 description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
@@ -20,18 +20,20 @@ plugins:
   
 authors:
     sal:
-      name:           Sal
+      name:           안지수
+      responsibility: 회장
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
+      bio:            "시발 다뒤지고 싶냐 아무도 클러그 못가져 이건 내가 만든 왕국이야 시발 다좆까 나만의 것이야"
       email:          wowthemesnet@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
     jane:
-      name:           Jane
+      name:           장혁진
+      responsibility: 부회장
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
+      bio:            "실전 스펙 만들어 드립니다."
       email:          fakemail@gmail.com
       twitter:        https://twitter.com/wowthemesnet
  
